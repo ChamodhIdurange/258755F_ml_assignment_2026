@@ -1,0 +1,13 @@
+# Commands to Run Explainability Script
+
+# 1. Install dependencies (if not already installed)
+pip install shap matplotlib
+
+# 2. Run the explainability script
+python explainability.py
+
+# Output:
+# - Feature importance table in console
+# - shap_summary.png (SHAP summary plot)
+# - shap_bar.png (SHAP bar plot)
+

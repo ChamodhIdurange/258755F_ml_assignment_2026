@@ -4,5 +4,7 @@ pandas==2.2.2
 numpy==2.0.2
 catboost==1.2.8
 scikit-learn==1.6.1
+shap
+matplotlib
 
 
