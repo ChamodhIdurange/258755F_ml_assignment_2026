@@ -8,8 +8,6 @@ env/
 venv/
 ENV/
 .venv
-*.cbm
-*.pkl
 *.joblib
 
 # CatBoost training artifacts
