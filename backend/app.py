@@ -7,10 +7,9 @@ import os
 import pickle
 
 app = Flask(__name__)
-CORS(app)  # Enable CORS for React frontend
+CORS(app) 
 
 # Load the trained model
-# Get the directory where this script is located
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MODEL_PATH = os.path.join(BASE_DIR, 'model', 'attrition_model.pkl')
 model = None
@@ -18,7 +17,6 @@ cat_features = None
 feature_order = None
 
 def load_model():
-    """Load the trained CatBoost model from pickle file"""
     global model, cat_features, feature_order
     if os.path.exists(MODEL_PATH):
         try:
@@ -36,7 +34,7 @@ def load_model():
     else:
         raise FileNotFoundError(f"Model file not found at {MODEL_PATH}. Please train and save the model first.")
 
-# Load model on startup
+# Load model
 try:
     load_model()
 except FileNotFoundError as e:
@@ -44,7 +42,6 @@ except FileNotFoundError as e:
 
 @app.route('/api/health', methods=['GET'])
 def health_check():
-    """Health check endpoint"""
     return jsonify({
         'status': 'healthy',
         'model_loaded': model is not None
@@ -52,7 +49,6 @@ def health_check():
 
 @app.route('/api/predict', methods=['POST'])
 def predict():
-    """Predict employee attrition based on input features"""
     if model is None or feature_order is None:
         print("ERROR: Model not loaded")
         return jsonify({'error': 'Model not loaded. Please check server logs.'}), 500
@@ -76,7 +72,7 @@ def predict():
         # Create DataFrame with single row
         input_data = pd.DataFrame([{
             'Department': str(data['Department']),
-            'Overtime': str(data['Overtime']).replace('–', '-'),  # Normalize en-dash to hyphen
+            'Overtime': str(data['Overtime']).replace('–', '-'),
             'Promotion_Gap': float(data['Promotion_Gap']),
             'Job_Satisfaction': str(data['Job_Satisfaction']),
             'AI_Automation_Risk': str(data['AI_Automation_Risk']),
@@ -85,7 +81,6 @@ def predict():
             'Market_Demand': str(data['Market_Demand'])
         }])
         
-        # Ensure columns are in the correct order expected by the model
         input_data = input_data[feature_order]
         
         print(f"Input data prepared: {input_data.to_dict('records')[0]}")
@@ -176,9 +171,7 @@ def get_features():
     })
 
 if __name__ == '__main__':
-    print(f"\n{'='*50}")
     print("Starting Flask Backend Server")
-    print(f"{'='*50}")
     print(f"Server will run on: http://localhost:5001")
     print(f"API endpoint: http://localhost:5001/api/predict")
     print(f"Health check: http://localhost:5001/api/health")

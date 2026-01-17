@@ -1,37 +1,30 @@
-"""
-Script to train and save the model from the notebook.
-Run this after training the model in the notebook, or modify to train directly.
-"""
 import pandas as pd
 import numpy as np
 from catboost import CatBoostClassifier
 from sklearn.model_selection import train_test_split
 import os
 import pickle
+from sklearn.metrics import accuracy_score, f1_score, roc_auc_score
 
-# Create model directory if it doesn't exist
+
 os.makedirs('model', exist_ok=True)
 
 # Load the CSV exported from Microsoft Forms
-# Update the filename if needed - check the actual filename in the parent directory
-# Try common filenames
 csv_files = [
-    '../Workplace Dynamics & Career Sentiment Survey 2026(1-35).csv',
-    '../survey_data.csv',
     'survey_data.csv'
 ]
 
 df_raw = None
+
 for csv_file in csv_files:
     try:
         df_raw = pd.read_csv(csv_file)
-        print(f"Loaded CSV from: {csv_file}")
         break
     except FileNotFoundError:
         continue
 
 if df_raw is None:
-    raise FileNotFoundError("Could not find CSV file. Please update the path in save_model.py")
+    raise FileNotFoundError("Could not find CSV file")
 
 # Mapping long survey questions to technical feature names
 column_mapping = {
@@ -49,19 +42,12 @@ column_mapping = {
 df = df_raw.rename(columns=column_mapping)
 df = df[list(column_mapping.values())]
 
-# -----------------------------
-# Data cleaning / normalization
-# -----------------------------
-# Normalize en-dash to hyphen in Overtime column (fixes character mismatch issue)
+
+# Data cleaning 
 df['Overtime'] = df['Overtime'].astype(str).str.replace('–', '-', regex=False)
-
-# Ensure numeric column is numeric (avoid poisoning numerics with 'Neutral')
 df['Promotion_Gap'] = pd.to_numeric(df['Promotion_Gap'], errors='coerce')
-
-# Convert Target to Binary (1 for Yes, 0 for No)
 df['Attrition'] = df['Attrition'].map({'Yes': 1, 'No': 0}).astype('Int64')
 
-# Fill missing categorical values only
 cat_cols = [
     'Department',
     'Overtime',
@@ -71,33 +57,30 @@ cat_cols = [
     'Job_Security',
     'Market_Demand',
 ]
+
 df[cat_cols] = df[cat_cols].fillna('Neutral')
-
-# Fill missing numeric values
 df['Promotion_Gap'] = df['Promotion_Gap'].fillna(df['Promotion_Gap'].median())
-
-# Finalize target dtype
 df['Attrition'] = df['Attrition'].fillna(0).astype(int)
 
 # Define categorical columns for the CatBoost algorithm
 cat_features = ['Department', 'Overtime', 'Job_Satisfaction', 'AI_Automation_Risk', 
                 'Recent_Layoffs', 'Job_Security', 'Market_Demand']
 
-# Train / Validation / Test Split
+# Train, Validation and Test Split
 X = df.drop('Attrition', axis=1)
 y = df['Attrition']
 X_temp, X_test, y_temp, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
 
-# Split the 80% again to get a 10% Validation set for Early Stopping
+
+# larger validation set to stabilize early stopping on small data
 X_train, X_val, y_train, y_val = train_test_split(
     X_temp,
     y_temp,
-    test_size=0.2,  # larger validation set to stabilize early stopping on small data
+    test_size=0.2,
     random_state=42,
     stratify=y_temp,
 )
 
-print(f"Dataset Split Complete: Train={len(X_train)}, Val={len(X_val)}, Test={len(X_test)}")
 print("Class distribution (train):")
 print(y_train.value_counts(dropna=False).to_string())
 print("Class distribution (val):")
@@ -108,8 +91,6 @@ print(y_test.value_counts(dropna=False).to_string())
 # Train the model
 model = CatBoostClassifier(
     loss_function='Logloss',
-    # Use Logloss for early stopping so training continues to improve probability quality
-    # (AUC can hit 1.0 very early on small datasets, causing tiny models and ~0.5 outputs).
     eval_metric='Logloss',
     iterations=2000,
     learning_rate=0.05,
@@ -123,7 +104,7 @@ model = CatBoostClassifier(
 # Train the model
 model.fit(X_train, y_train, cat_features=cat_features, eval_set=(X_val, y_val))
 
-# Save the model as pickle file
+# Save the model
 model_data = {
     'model': model,
     'cat_features': cat_features,
@@ -134,13 +115,8 @@ with open(pickle_path, 'wb') as f:
     pickle.dump(model_data, f)
 print(f"\nModel saved successfully as pickle file: {pickle_path}")
 
-# Also save in CatBoost native format (optional, for compatibility)
-cbm_path = 'model/attrition_model.cbm'
-model.save_model(cbm_path)
-print(f"Model also saved in CatBoost format: {cbm_path}")
 
-# Print some metrics
-from sklearn.metrics import accuracy_score, f1_score, roc_auc_score
+
 y_pred = model.predict(X_test)
 y_prob = model.predict_proba(X_test)[:, 1]
 
