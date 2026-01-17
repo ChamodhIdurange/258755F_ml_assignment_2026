@@ -12,6 +12,10 @@ ENV/
 *.pkl
 *.joblib
 
+# CatBoost training artifacts
+catboost_info/
+**/catboost_info/
+
 # Node
 node_modules/
 npm-debug.log*
