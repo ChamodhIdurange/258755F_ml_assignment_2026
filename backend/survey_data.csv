@@ -1,0 +1,179 @@
+﻿ID,Start time,Completion time,Email,Name,Last modified time,Primary Department Question,Average Monthly Overtime,How many years has it been since your last job title change or promotion?,Satisfaction,Risk,"Has your specific department experienced staff layoffs or ""firing"" in the last 12 months?",Security,"If you left today, how easy would it be to find a similar role elsewhere?",Are you actively planning to leave your current company or looking for a new job within the next 6 months?
+1,2001-10-26 14:11,2001-10-26 14:13,anonymous,,,IT / Software Engineering,0 hours,0.0,Neutral,Very High,No,Very Secure,Neutral,No
+2,2001-10-26 14:15,2001-10-26 14:17,anonymous,,,IT / Software Engineering,0 hours,2.0,Satisfied,High,No,Secure,Neutral,No
+3,2001-10-26 14:15,2001-10-26 14:18,anonymous,,,"HR, Sales & Marketing",1–10 hours,2.5,Neutral,Low,Yes,Very Unstable,Very Easy,No
+4,2001-10-26 14:22,2001-10-26 14:24,anonymous,,,IT / Software Engineering,0 hours,3.0,Neutral,High,No,Unstable,Difficult,Yes
+5,2001-10-26 14:26,2001-10-26 14:28,anonymous,,,"HR, Sales & Marketing",0 hours,1.0,Satisfied,Very Low,No,Secure,Very Easy,No
+6,2001-10-26 14:38,2001-10-26 14:40,anonymous,,,"HR, Sales & Marketing",1–10 hours,1.0,Neutral,Low,No,Medium,Very Easy,No
+7,2001-10-26 15:03,2001-10-26 15:06,anonymous,,,IT / Software Engineering,0 hours,0.0,Neutral,Very High,No,Medium,Easy,Yes
+8,2001-10-26 15:27,2001-10-26 15:28,anonymous,,,IT / Software Engineering,0 hours,1.0,Neutral,High,No,Medium,Difficult,No
+9,2001-10-26 15:41,2001-10-26 15:45,anonymous,,,IT / Software Engineering,20+ hours,1.0,Very Dissatisfied,Very High,Yes,Very Unstable,Difficult,Yes
+10,2001-10-26 16:07,2001-10-26 16:10,anonymous,,,IT / Software Engineering,1–10 hours,0.5,Very Dissatisfied,High,Yes,Very Unstable,Difficult,Yes
+11,2001-10-26 16:50,2001-10-26 16:52,anonymous,,,Other,1–10 hours,6.0,Satisfied,Medium,No,Secure,Neutral,No
+12,2001-10-26 16:56,2001-10-26 16:58,anonymous,,,IT / Software Engineering,1–10 hours,2.0,Neutral,High,Yes,Unstable,Neutral,Yes
+13,2001-10-26 17:22,2001-10-26 17:23,anonymous,,,IT / Software Engineering,1–10 hours,1.0,Dissatisfied,Very High,Yes,Unstable,Difficult,Yes
+14,2001-10-26 17:38,2001-10-26 17:40,anonymous,,,Other,1–10 hours,2.0,Satisfied,Medium,Yes,Secure,Easy,No
+15,2001-10-26 17:54,2001-10-26 17:56,anonymous,,,Other,20+ hours,1.0,Satisfied,Medium,Yes,Medium,Difficult,No
+16,2001-10-26 21:06,2001-10-26 21:09,anonymous,,,"HR, Sales & Marketing",1–10 hours,1.0,Satisfied,Very Low,No,Medium,Easy,No
+17,2001-10-26 23:41,2001-10-26 23:43,anonymous,,,IT / Software Engineering,20+ hours,3.0,Dissatisfied,High,Yes,Medium,Neutral,Yes
+18,2001-11-26 10:36,2001-11-26 10:38,anonymous,,,IT / Software Engineering,1–10 hours,1.0,Neutral,Very High,No,Medium,Neutral,No
+19,2001-11-26 11:00,2001-11-26 11:01,anonymous,,,IT / Software Engineering,1–10 hours,0.0,Neutral,High,Yes,Medium,Easy,Yes
+20,2001-11-26 13:02,2001-11-26 13:04,anonymous,,,Finance,1–10 hours,2.0,Satisfied,High,No,Secure,Easy,No
+21,2001-11-26 16:08,2001-11-26 16:09,anonymous,,,IT / Software Engineering,1–10 hours,2.0,Satisfied,Very High,Yes,Medium,Easy,No
+22,2001-11-26 19:38,2001-11-26 19:40,anonymous,,,IT / Software Engineering,1–10 hours,1.0,Neutral,High,Yes,Very Unstable,Neutral,Yes
+23,2001-11-26 19:38,2001-11-26 19:40,anonymous,,,IT / Software Engineering,20+ hours,2.0,Neutral,Very High,Yes,Medium,Neutral,Yes
+24,2001-11-26 19:39,2001-11-26 19:40,anonymous,,,"HR, Sales & Marketing",0 hours,1.0,Satisfied,Very Low,No,Secure,Easy,No
+25,2001-11-26 19:50,2001-11-26 19:52,anonymous,,,IT / Software Engineering,0 hours,0.0,Satisfied,High,No,Unstable,Difficult,No
+26,2001-11-26 20:03,2001-11-26 20:05,anonymous,,,Other,0 hours,2.0,Neutral,Medium,No,Medium,Easy,No
+27,2001-11-26 20:55,2001-11-26 20:56,anonymous,,,Other,1–10 hours,0.0,Satisfied,Medium,Yes,Medium,Easy,No
+28,2001-11-26 21:03,2001-11-26 21:05,anonymous,,,IT / Software Engineering,11–20 hours,1.0,Neutral,Very High,Yes,Unstable,Difficult,Yes
+29,2001-11-26 21:23,2001-11-26 21:24,anonymous,,,IT / Software Engineering,1–10 hours,0.0,Neutral,High,Yes,Unstable,Difficult,Yes
+30,2001-11-26 21:42,2001-11-26 21:43,anonymous,,,IT / Software Engineering,1–10 hours,1.0,Satisfied,Very High,Yes,Very Unstable,Difficult,Yes
+31,2001-12-26 01:49,2001-12-26 01:51,anonymous,,,IT / Software Engineering,0 hours,2.0,Neutral,High,No,Unstable,Neutral,Yes
+32,2001-12-26 06:13,2001-12-26 06:15,anonymous,,,Other,20+ hours,1.0,Dissatisfied,Medium,Yes,Unstable,Difficult,Yes
+33,2001-12-26 09:08,2001-12-26 09:10,anonymous,,,IT / Software Engineering,11–20 hours,1.0,Satisfied,High,No,Medium,Easy,No
+34,2001-12-26 10:18,2001-12-26 10:21,anonymous,,,IT / Software Engineering,0 hours,3.0,Neutral,Very High,No,Secure,Neutral,No
+35,2001-12-26 12:02,2001-12-26 12:03,anonymous,,,"HR, Sales & Marketing",1–10 hours,2.0,Neutral,Low,Yes,Unstable,Difficult,No
+36,2026-01-12 04:07:55,2026-01-12 04:11:55,anonymous,,,IT / Software Engineering,20+ hours,0.5,Satisfied,Very High,Yes,Medium,Neutral,No
+37,2026-01-12 04:45:52,2026-01-12 04:59:52,anonymous,,,Finance,1–10 hours,3.0,Dissatisfied,High,Yes,Very Secure,Difficult,Yes
+38,2026-01-12 06:06:10,2026-01-12 06:14:10,anonymous,,,Other,11–20 hours,6.0,Dissatisfied,Medium,No,Secure,Difficult,No
+39,2026-01-12 06:57:43,2026-01-12 07:10:43,anonymous,,,Other,20+ hours,0.0,Very Dissatisfied,Medium,Yes,Unstable,Easy,Yes
+40,2026-01-12 07:27:01,2026-01-12 07:39:01,anonymous,,,Other,1–10 hours,2.5,Very Dissatisfied,Medium,Yes,Medium,Easy,Yes
+41,2026-01-12 07:35:57,2026-01-12 07:48:57,anonymous,,,Finance,20+ hours,1.0,Neutral,High,No,Very Unstable,Neutral,Yes
+42,2026-01-12 08:49:05,2026-01-12 08:58:05,anonymous,,,Other,1–10 hours,0.0,Dissatisfied,Medium,No,Medium,Neutral,No
+43,2026-01-12 09:15:22,2026-01-12 09:25:22,anonymous,,,Other,20+ hours,1.0,Neutral,Medium,No,Medium,Neutral,No
+44,2026-01-12 11:45:57,2026-01-12 11:53:57,anonymous,,,Finance,1–10 hours,0.0,Satisfied,High,Yes,Unstable,Difficult,Yes
+45,2026-01-12 12:47:07,2026-01-12 13:02:07,anonymous,,,IT / Software Engineering,20+ hours,0.5,Very Dissatisfied,Very High,Yes,Very Unstable,Very Easy,Yes
+46,2026-01-12 14:25:48,2026-01-12 14:39:48,anonymous,,,IT / Software Engineering,20+ hours,6.0,Satisfied,High,No,Very Unstable,Easy,Yes
+47,2026-01-12 15:25:02,2026-01-12 15:31:02,anonymous,,,Finance,11–20 hours,1.0,Neutral,Medium,Yes,Very Unstable,Very Easy,Yes
+48,2026-01-12 17:44:57,2026-01-12 17:56:57,anonymous,,,IT / Software Engineering,11–20 hours,3.0,Very Dissatisfied,Very High,Yes,Very Secure,Difficult,Yes
+49,2026-01-12 18:46:47,2026-01-12 18:58:47,anonymous,,,IT / Software Engineering,0 hours,2.5,Dissatisfied,High,No,Medium,Neutral,Yes
+50,2026-01-12 20:02:03,2026-01-12 20:07:03,anonymous,,,IT / Software Engineering,20+ hours,6.0,Neutral,Very High,No,Very Unstable,Very Easy,Yes
+51,2026-01-12 20:21:23,2026-01-12 20:24:23,anonymous,,,IT / Software Engineering,20+ hours,3.0,Neutral,High,No,Medium,Very Easy,No
+52,2026-01-12 20:31:00,2026-01-12 20:35:00,anonymous,,,IT / Software Engineering,20+ hours,3.0,Dissatisfied,Very High,No,Very Unstable,Difficult,Yes
+53,2026-01-12 20:39:43,2026-01-12 20:53:43,anonymous,,,IT / Software Engineering,0 hours,0.0,Satisfied,High,Yes,Unstable,Difficult,No
+54,2026-01-12 21:19:38,2026-01-12 21:26:38,anonymous,,,"HR, Sales & Marketing",1–10 hours,1.0,Satisfied,Very Low,No,Unstable,Easy,No
+55,2026-01-12 22:13:46,2026-01-12 22:26:46,anonymous,,,Finance,0 hours,0.0,Neutral,High,Yes,Very Secure,Difficult,No
+56,2026-01-12 22:27:52,2026-01-12 22:32:52,anonymous,,,"HR, Sales & Marketing",1–10 hours,0.5,Dissatisfied,Low,Yes,Very Unstable,Very Easy,Yes
+57,2026-01-12 23:01:19,2026-01-12 23:11:19,anonymous,,,Other,11–20 hours,3.0,Satisfied,Medium,No,Very Unstable,Difficult,Yes
+58,2026-01-12 23:12:21,2026-01-12 23:22:21,anonymous,,,Other,11–20 hours,3.0,Very Dissatisfied,Medium,No,Very Secure,Easy,No
+59,2026-01-12 23:58:47,2026-01-13 00:03:47,anonymous,,,Other,1–10 hours,2.5,Very Dissatisfied,Medium,Yes,Secure,Difficult,No
+60,2026-01-13 00:29:09,2026-01-13 00:33:09,anonymous,,,Finance,0 hours,1.0,Satisfied,High,Yes,Secure,Very Easy,Yes
+61,2026-01-13 02:16:29,2026-01-13 02:23:29,anonymous,,,IT / Software Engineering,20+ hours,2.5,Very Dissatisfied,Very High,No,Secure,Easy,Yes
+62,2026-01-13 03:12:26,2026-01-13 03:22:26,anonymous,,,IT / Software Engineering,11–20 hours,2.5,Very Dissatisfied,High,Yes,Very Secure,Easy,Yes
+63,2026-01-13 04:59:23,2026-01-13 05:11:23,anonymous,,,Other,11–20 hours,1.0,Neutral,Medium,No,Secure,Difficult,No
+64,2026-01-13 05:46:16,2026-01-13 05:53:16,anonymous,,,"HR, Sales & Marketing",1–10 hours,6.0,Very Dissatisfied,Very Low,Yes,Very Secure,Neutral,No
+65,2026-01-13 07:14:56,2026-01-13 07:26:56,anonymous,,,Other,11–20 hours,2.0,Neutral,Medium,No,Unstable,Very Easy,No
+66,2026-01-13 10:22:09,2026-01-13 10:37:09,anonymous,,,IT / Software Engineering,20+ hours,2.5,Dissatisfied,Very High,No,Medium,Very Easy,No
+67,2026-01-13 11:03:31,2026-01-13 11:09:31,anonymous,,,Other,20+ hours,0.0,Neutral,Medium,Yes,Medium,Easy,No
+68,2026-01-13 12:04:49,2026-01-13 12:18:49,anonymous,,,Other,11–20 hours,1.0,Satisfied,Medium,Yes,Very Unstable,Easy,Yes
+69,2026-01-13 12:21:08,2026-01-13 12:25:08,anonymous,,,IT / Software Engineering,1–10 hours,3.0,Dissatisfied,High,No,Very Unstable,Difficult,Yes
+70,2026-01-13 12:41:58,2026-01-13 12:55:58,anonymous,,,IT / Software Engineering,1–10 hours,2.5,Neutral,Very High,No,Very Unstable,Difficult,Yes
+71,2026-01-13 15:37:40,2026-01-13 15:47:40,anonymous,,,IT / Software Engineering,11–20 hours,3.0,Dissatisfied,High,Yes,Secure,Neutral,Yes
+72,2026-01-13 15:43:41,2026-01-13 15:53:41,anonymous,,,Other,1–10 hours,6.0,Dissatisfied,Medium,No,Unstable,Difficult,No
+73,2026-01-13 17:57:28,2026-01-13 18:03:28,anonymous,,,Finance,0 hours,0.0,Satisfied,Medium,Yes,Very Secure,Neutral,No
+74,2026-01-13 18:09:49,2026-01-13 18:13:49,anonymous,,,Other,0 hours,2.5,Satisfied,Medium,Yes,Very Unstable,Neutral,Yes
+75,2026-01-13 19:20:35,2026-01-13 19:35:35,anonymous,,,Finance,1–10 hours,0.5,Dissatisfied,High,Yes,Very Unstable,Difficult,Yes
+76,2026-01-13 21:41:05,2026-01-13 21:50:05,anonymous,,,"HR, Sales & Marketing",11–20 hours,0.5,Satisfied,Very Low,Yes,Very Secure,Very Easy,No
+77,2026-01-14 00:34:14,2026-01-14 00:40:14,anonymous,,,"HR, Sales & Marketing",1–10 hours,0.0,Satisfied,Low,No,Secure,Difficult,No
+78,2026-01-14 01:16:41,2026-01-14 01:29:41,anonymous,,,Other,0 hours,6.0,Very Dissatisfied,Medium,Yes,Very Secure,Easy,No
+79,2026-01-14 02:26:34,2026-01-14 02:36:34,anonymous,,,IT / Software Engineering,20+ hours,0.5,Dissatisfied,High,No,Medium,Difficult,No
+80,2026-01-14 04:10:22,2026-01-14 04:25:22,anonymous,,,"HR, Sales & Marketing",20+ hours,0.0,Satisfied,Very Low,No,Secure,Easy,No
+81,2026-01-14 04:38:46,2026-01-14 04:49:46,anonymous,,,"HR, Sales & Marketing",0 hours,2.0,Satisfied,Low,Yes,Very Secure,Difficult,No
+82,2026-01-14 05:42:04,2026-01-14 05:49:04,anonymous,,,IT / Software Engineering,0 hours,1.0,Dissatisfied,Very High,No,Unstable,Very Easy,Yes
+83,2026-01-14 05:53:34,2026-01-14 06:00:34,anonymous,,,IT / Software Engineering,20+ hours,6.0,Neutral,High,No,Secure,Neutral,No
+84,2026-01-14 06:01:32,2026-01-14 06:09:32,anonymous,,,Other,0 hours,1.0,Satisfied,Medium,Yes,Unstable,Difficult,Yes
+85,2026-01-14 10:04:02,2026-01-14 10:09:02,anonymous,,,Finance,0 hours,2.5,Satisfied,Medium,No,Very Unstable,Easy,Yes
+86,2026-01-14 11:37:41,2026-01-14 11:49:41,anonymous,,,IT / Software Engineering,1–10 hours,2.5,Neutral,Very High,Yes,Medium,Difficult,Yes
+87,2026-01-14 12:15:57,2026-01-14 12:23:57,anonymous,,,Finance,11–20 hours,3.0,Neutral,High,Yes,Very Unstable,Difficult,Yes
+88,2026-01-14 12:25:25,2026-01-14 12:28:25,anonymous,,,Finance,20+ hours,2.0,Dissatisfied,High,Yes,Secure,Neutral,Yes
+89,2026-01-14 12:39:47,2026-01-14 12:51:47,anonymous,,,Finance,0 hours,1.0,Dissatisfied,Medium,No,Very Secure,Easy,No
+90,2026-01-14 14:36:38,2026-01-14 14:40:38,anonymous,,,Other,11–20 hours,1.0,Very Dissatisfied,Medium,No,Unstable,Neutral,Yes
+91,2026-01-14 14:43:07,2026-01-14 14:48:07,anonymous,,,"HR, Sales & Marketing",11–20 hours,1.0,Satisfied,Very Low,Yes,Very Secure,Easy,No
+92,2026-01-14 15:31:44,2026-01-14 15:34:44,anonymous,,,Finance,0 hours,6.0,Very Dissatisfied,High,Yes,Medium,Easy,Yes
+93,2026-01-14 16:38:55,2026-01-14 16:46:55,anonymous,,,Other,0 hours,0.5,Very Dissatisfied,Medium,Yes,Very Unstable,Neutral,Yes
+94,2026-01-14 18:03:59,2026-01-14 18:11:59,anonymous,,,IT / Software Engineering,11–20 hours,1.0,Satisfied,High,No,Unstable,Easy,No
+95,2026-01-14 18:42:26,2026-01-14 18:55:26,anonymous,,,IT / Software Engineering,0 hours,3.0,Dissatisfied,Very High,No,Unstable,Easy,Yes
+96,2026-01-14 19:14:13,2026-01-14 19:29:13,anonymous,,,Other,11–20 hours,1.0,Dissatisfied,Medium,No,Medium,Very Easy,No
+97,2026-01-14 20:04:15,2026-01-14 20:19:15,anonymous,,,Other,1–10 hours,1.0,Neutral,Medium,Yes,Unstable,Easy,No
+98,2026-01-14 20:19:08,2026-01-14 20:29:08,anonymous,,,Other,0 hours,0.0,Neutral,Medium,No,Secure,Easy,No
+99,2026-01-15 01:37:34,2026-01-15 01:49:34,anonymous,,,Other,0 hours,6.0,Neutral,Medium,No,Unstable,Easy,No
+100,2026-01-15 01:52:59,2026-01-15 02:03:59,anonymous,,,Finance,11–20 hours,0.5,Very Dissatisfied,High,No,Very Unstable,Difficult,Yes
+101,2026-01-15 02:03:14,2026-01-15 02:11:14,anonymous,,,IT / Software Engineering,20+ hours,2.5,Satisfied,Very High,Yes,Unstable,Very Easy,Yes
+102,2026-01-15 03:37:59,2026-01-15 03:47:59,anonymous,,,"HR, Sales & Marketing",1–10 hours,2.5,Very Dissatisfied,Very Low,Yes,Medium,Difficult,No
+103,2026-01-15 04:20:48,2026-01-15 04:33:48,anonymous,,,IT / Software Engineering,11–20 hours,2.0,Satisfied,Very High,No,Secure,Neutral,No
+104,2026-01-15 06:09:40,2026-01-15 06:12:40,anonymous,,,IT / Software Engineering,11–20 hours,2.0,Very Dissatisfied,High,Yes,Very Unstable,Neutral,Yes
+105,2026-01-15 07:26:25,2026-01-15 07:33:25,anonymous,,,Finance,0 hours,0.0,Very Dissatisfied,Medium,Yes,Unstable,Easy,No
+106,2026-01-15 08:17:21,2026-01-15 08:30:21,anonymous,,,Other,1–10 hours,6.0,Satisfied,Medium,No,Very Secure,Very Easy,No
+107,2026-01-15 09:00:43,2026-01-15 09:08:43,anonymous,,,IT / Software Engineering,20+ hours,1.0,Satisfied,High,No,Medium,Difficult,No
+108,2026-01-15 09:01:38,2026-01-15 09:04:38,anonymous,,,Finance,20+ hours,0.5,Neutral,High,Yes,Unstable,Neutral,Yes
+109,2026-01-15 09:41:06,2026-01-15 09:49:06,anonymous,,,IT / Software Engineering,11–20 hours,1.0,Dissatisfied,Very High,No,Unstable,Difficult,Yes
+110,2026-01-15 10:12:36,2026-01-15 10:25:36,anonymous,,,IT / Software Engineering,20+ hours,6.0,Very Dissatisfied,High,Yes,Very Secure,Easy,Yes
+111,2026-01-15 11:06:32,2026-01-15 11:15:32,anonymous,,,"HR, Sales & Marketing",0 hours,1.0,Very Dissatisfied,Low,No,Unstable,Easy,Yes
+112,2026-01-15 12:44:44,2026-01-15 12:58:44,anonymous,,,Other,1–10 hours,0.0,Very Dissatisfied,Medium,Yes,Secure,Easy,No
+113,2026-01-15 14:47:46,2026-01-15 14:50:46,anonymous,,,Finance,1–10 hours,2.0,Very Dissatisfied,High,No,Very Secure,Very Easy,No
+114,2026-01-15 14:54:23,2026-01-15 15:05:23,anonymous,,,IT / Software Engineering,1–10 hours,0.5,Satisfied,High,Yes,Very Secure,Difficult,No
+115,2026-01-15 15:26:27,2026-01-15 15:33:27,anonymous,,,Other,0 hours,1.0,Satisfied,Medium,Yes,Secure,Neutral,No
+116,2026-01-15 16:06:37,2026-01-15 16:16:37,anonymous,,,Other,1–10 hours,0.0,Dissatisfied,Medium,Yes,Very Secure,Very Easy,No
+117,2026-01-15 16:55:27,2026-01-15 17:02:27,anonymous,,,IT / Software Engineering,11–20 hours,2.0,Satisfied,Very High,Yes,Secure,Difficult,No
+118,2026-01-15 18:45:58,2026-01-15 18:58:58,anonymous,,,Other,0 hours,2.0,Neutral,Medium,Yes,Very Unstable,Difficult,Yes
+119,2026-01-15 19:01:31,2026-01-15 19:08:31,anonymous,,,Other,0 hours,1.0,Satisfied,Medium,No,Secure,Difficult,No
+120,2026-01-15 19:20:14,2026-01-15 19:31:14,anonymous,,,Other,20+ hours,3.0,Satisfied,Medium,Yes,Unstable,Neutral,No
+121,2026-01-15 19:57:07,2026-01-15 20:04:07,anonymous,,,Finance,0 hours,2.5,Neutral,High,Yes,Unstable,Neutral,Yes
+122,2026-01-15 20:00:11,2026-01-15 20:05:11,anonymous,,,"HR, Sales & Marketing",0 hours,0.5,Dissatisfied,Very Low,Yes,Secure,Neutral,No
+123,2026-01-15 20:34:34,2026-01-15 20:43:34,anonymous,,,Other,20+ hours,0.5,Neutral,Medium,No,Very Unstable,Very Easy,No
+124,2026-01-15 20:50:40,2026-01-15 20:59:40,anonymous,,,Other,1–10 hours,0.0,Satisfied,Medium,Yes,Very Secure,Very Easy,No
+125,2026-01-15 21:41:19,2026-01-15 21:56:19,anonymous,,,IT / Software Engineering,20+ hours,1.0,Dissatisfied,Very High,No,Very Unstable,Difficult,Yes
+126,2026-01-15 23:54:00,2026-01-16 00:09:00,anonymous,,,Finance,0 hours,5.7,Very Dissatisfied,High,No,Unstable,Easy,Yes
+127,2026-01-15 23:28:00,2026-01-15 23:35:00,anonymous,,,IT / Software Engineering,11–20 hours,1.2,Dissatisfied,Very High,No,Medium,Easy,No
+128,2026-01-16 21:30:00,2026-01-16 21:38:00,anonymous,,,IT / Software Engineering,1–10 hours,0.6,Neutral,High,No,Very Unstable,Neutral,Yes
+129,2026-01-16 05:07:00,2026-01-16 05:19:00,anonymous,,,IT / Software Engineering,20+ hours,2.3,Neutral,Very High,Yes,Unstable,Easy,Yes
+130,2026-01-15 22:45:00,2026-01-15 22:49:00,anonymous,,,"HR, Sales & Marketing",11–20 hours,3.1,Dissatisfied,Low,Yes,Very Secure,Easy,No
+131,2026-01-16 14:00:00,2026-01-16 14:15:00,anonymous,,,Other,1–10 hours,0.0,Dissatisfied,Medium,Yes,Unstable,Very Easy,No
+132,2026-01-16 16:29:00,2026-01-16 16:38:00,anonymous,,,"HR, Sales & Marketing",1–10 hours,3.1,Satisfied,Very Low,No,Very Unstable,Easy,No
+133,2026-01-16 09:01:00,2026-01-16 09:10:00,anonymous,,,IT / Software Engineering,11–20 hours,4.2,Very Dissatisfied,High,Yes,Medium,Neutral,Yes
+134,2026-01-16 17:52:00,2026-01-16 18:06:00,anonymous,,,Finance,20+ hours,0.7,Neutral,Medium,No,Medium,Easy,No
+135,2026-01-16 02:59:00,2026-01-16 03:14:00,anonymous,,,Other,11–20 hours,2.3,Dissatisfied,Medium,No,Very Unstable,Very Easy,No
+136,2026-01-16 00:31:00,2026-01-16 00:45:00,anonymous,,,"HR, Sales & Marketing",20+ hours,5.3,Dissatisfied,Low,No,Secure,Neutral,No
+137,2026-01-16 06:40:00,2026-01-16 06:55:00,anonymous,,,"HR, Sales & Marketing",20+ hours,0.0,Satisfied,Very Low,Yes,Very Unstable,Easy,Yes
+138,2026-01-16 16:38:00,2026-01-16 16:51:00,anonymous,,,Finance,0 hours,3.0,Very Dissatisfied,High,No,Very Secure,Difficult,Yes
+139,2026-01-16 15:49:00,2026-01-16 15:51:00,anonymous,,,Finance,20+ hours,4.2,Very Dissatisfied,Medium,Yes,Unstable,Neutral,Yes
+140,2026-01-16 13:28:00,2026-01-16 13:31:00,anonymous,,,IT / Software Engineering,11–20 hours,5.8,Dissatisfied,Very High,No,Unstable,Very Easy,Yes
+141,2026-01-16 08:56:00,2026-01-16 09:05:00,anonymous,,,Other,1–10 hours,4.6,Satisfied,Medium,Yes,Secure,Neutral,No
+142,2026-01-16 09:33:00,2026-01-16 09:36:00,anonymous,,,IT / Software Engineering,0 hours,2.5,Satisfied,High,Yes,Unstable,Neutral,Yes
+143,2026-01-16 21:10:00,2026-01-16 21:13:00,anonymous,,,IT / Software Engineering,0 hours,2.8,Neutral,Very High,Yes,Secure,Neutral,Yes
+144,2026-01-16 07:32:00,2026-01-16 07:40:00,anonymous,,,Finance,11–20 hours,5.6,Dissatisfied,High,No,Unstable,Easy,Yes
+145,2026-01-16 19:00:00,2026-01-16 19:05:00,anonymous,,,IT / Software Engineering,20+ hours,0.5,Neutral,High,No,Unstable,Easy,Yes
+146,2026-01-16 17:19:00,2026-01-16 17:29:00,anonymous,,,"HR, Sales & Marketing",0 hours,4.2,Very Dissatisfied,Very Low,Yes,Unstable,Easy,No
+147,2026-01-16 11:14:00,2026-01-16 11:28:00,anonymous,,,"HR, Sales & Marketing",1–10 hours,0.7,Satisfied,Low,No,Medium,Neutral,No
+148,2026-01-15 23:49:00,2026-01-16 00:04:00,anonymous,,,IT / Software Engineering,1–10 hours,0.3,Dissatisfied,Very High,No,Secure,Very Easy,Yes
+149,2026-01-16 13:17:00,2026-01-16 13:30:00,anonymous,,,IT / Software Engineering,1–10 hours,4.5,Neutral,High,Yes,Very Secure,Easy,No
+150,2026-01-16 14:51:00,2026-01-16 15:01:00,anonymous,,,"HR, Sales & Marketing",1–10 hours,2.5,Satisfied,Very Low,No,Very Unstable,Difficult,No
+151,2026-01-16 02:59:00,2026-01-16 03:12:00,anonymous,,,IT / Software Engineering,11–20 hours,1.7,Neutral,Very High,Yes,Secure,Easy,Yes
+152,2026-01-16 12:16:00,2026-01-16 12:19:00,anonymous,,,Finance,1–10 hours,4.6,Neutral,Medium,Yes,Secure,Neutral,No
+153,2026-01-16 09:23:00,2026-01-16 09:28:00,anonymous,,,IT / Software Engineering,0 hours,0.8,Neutral,High,No,Very Secure,Neutral,No
+154,2026-01-16 07:10:00,2026-01-16 07:24:00,anonymous,,,IT / Software Engineering,11–20 hours,3.1,Very Dissatisfied,Very High,No,Secure,Very Easy,Yes
+155,2026-01-16 00:42:00,2026-01-16 00:56:00,anonymous,,,IT / Software Engineering,1–10 hours,0.0,Dissatisfied,High,Yes,Very Unstable,Difficult,Yes
+156,2026-01-16 09:34:00,2026-01-16 09:36:00,anonymous,,,Other,1–10 hours,5.9,Very Dissatisfied,Medium,Yes,Very Secure,Difficult,No
+157,2026-01-16 11:18:00,2026-01-16 11:20:00,anonymous,,,Finance,20+ hours,5.6,Neutral,High,Yes,Very Secure,Neutral,Yes
+158,2026-01-16 03:38:00,2026-01-16 03:51:00,anonymous,,,IT / Software Engineering,0 hours,1.2,Very Dissatisfied,Very High,Yes,Very Unstable,Neutral,Yes
+159,2026-01-16 21:36:00,2026-01-16 21:41:00,anonymous,,,IT / Software Engineering,11–20 hours,5.7,Neutral,High,No,Secure,Very Easy,No
+160,2026-01-16 11:01:00,2026-01-16 11:06:00,anonymous,,,IT / Software Engineering,20+ hours,1.5,Neutral,Very High,No,Very Secure,Difficult,No
+161,2026-01-16 21:05:00,2026-01-16 21:10:00,anonymous,,,Other,20+ hours,5.5,Satisfied,Medium,No,Unstable,Neutral,No
+162,2026-01-16 06:56:00,2026-01-16 07:02:00,anonymous,,,IT / Software Engineering,0 hours,4.0,Neutral,High,Yes,Secure,Very Easy,No
+163,2026-01-16 14:21:00,2026-01-16 14:24:00,anonymous,,,"HR, Sales & Marketing",11–20 hours,2.2,Satisfied,Low,No,Very Unstable,Difficult,No
+164,2026-01-16 06:36:00,2026-01-16 06:43:00,anonymous,,,Finance,0 hours,2.0,Dissatisfied,High,No,Unstable,Difficult,Yes
+165,2026-01-16 16:11:00,2026-01-16 16:13:00,anonymous,,,Finance,20+ hours,3.1,Neutral,Medium,Yes,Medium,Easy,No
+166,2026-01-16 17:52:00,2026-01-16 18:05:00,anonymous,,,Other,11–20 hours,5.5,Satisfied,Medium,Yes,Unstable,Difficult,No
+167,2026-01-16 19:34:00,2026-01-16 19:37:00,anonymous,,,IT / Software Engineering,11–20 hours,1.9,Very Dissatisfied,High,Yes,Secure,Easy,Yes
+168,2026-01-16 04:15:00,2026-01-16 04:18:00,anonymous,,,Other,1–10 hours,5.7,Neutral,Medium,Yes,Unstable,Very Easy,No
+169,2026-01-16 03:16:00,2026-01-16 03:22:00,anonymous,,,Finance,0 hours,0.1,Very Dissatisfied,High,No,Unstable,Difficult,Yes
+170,2026-01-16 05:59:00,2026-01-16 06:04:00,anonymous,,,Other,1–10 hours,5.2,Dissatisfied,Medium,Yes,Medium,Difficult,No
+171,2026-01-16 12:09:00,2026-01-16 12:22:00,anonymous,,,IT / Software Engineering,20+ hours,0.8,Satisfied,Very High,Yes,Very Unstable,Easy,Yes
+172,2026-01-15 23:50:00,2026-01-15 23:55:00,anonymous,,,IT / Software Engineering,11–20 hours,2.0,Very Dissatisfied,High,No,Unstable,Very Easy,Yes
+173,2026-01-16 11:05:00,2026-01-16 11:16:00,anonymous,,,IT / Software Engineering,1–10 hours,2.3,Dissatisfied,Very High,No,Secure,Difficult,No
+174,2026-01-16 00:16:00,2026-01-16 00:29:00,anonymous,,,IT / Software Engineering,11–20 hours,5.8,Very Dissatisfied,Very High,No,Unstable,Very Easy,Yes
+175,2026-01-16 09:47:00,2026-01-16 10:01:00,anonymous,,,Finance,20+ hours,1.7,Neutral,High,Yes,Unstable,Neutral,Yes
+176,2026-01-16 21:16:00,2026-01-16 21:19:00,anonymous,,,IT / Software Engineering,20+ hours,3.1,Very Dissatisfied,High,Yes,Secure,Very Easy,Yes
+177,2026-01-16 10:17:00,2026-01-16 10:30:00,anonymous,,,IT / Software Engineering,1–10 hours,3.5,Very Dissatisfied,High,No,Medium,Very Easy,No
+178,2026-01-15 22:30:00,2026-01-15 22:35:00,anonymous,,,Other,0 hours,5.4,Dissatisfied,Medium,Yes,Very Secure,Very Easy,No
